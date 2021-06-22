@@ -1,0 +1,54 @@
+header {
+  box-shadow: 2px 2px;
+}
+
+.logo {
+  height: 60px;
+  margin: 20px;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: Exo, sans-serif;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.card-title {
+  background-color: #ffffff;
+  color: #6eb92b;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.card-subtitle,
+.card-text {
+  color: #697070;
+
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating i {
+  color: #6eb92b;
+}
+
+#submit {
+  background-color: #6eb92b;
+  color: #ffffff;
+}
+
+.card,
+button,
+input {
+  border-radius: 5px;
+}
